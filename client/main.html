@@ -1,0 +1,100 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+  <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+  <script src="js/modernizr.js"></script> <!-- Modernizr -->
+  <script src="js/main.js"></script> <!-- Resource jQuery -->
+    
+  <title>MKeda</title>
+</head>
+<body>
+  <section id="cd-intro">
+    <div id="cd-intro-tagline">
+      <h1>MKEDA <br/><br/></h1>
+      <h2> Keda Company Americas Division</h2>
+    </div> <!-- #cd-intro-tagline -->
+  </section> <!-- #cd-intro -->
+
+  <div class="cd-secondary-nav">
+    <a href="#0" class="cd-secondary-nav-trigger">Menu<span></span></a> <!-- button visible on small devices -->
+    <nav>
+      <ul>
+        <li>
+          <a href="#mission">
+            <b>Mission</b>
+          </a>
+        </li>
+        <li>
+          <a href="#our-factories">
+            <b>Our Factories</b>
+          </a>
+        </li>
+        <li>
+          <a href="#catalog">
+            <b>Catalog</b>
+          </a>
+        </li>
+        <li>
+          <a href="#contact">
+            <b>Contact Us</b>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div> <!-- .cd-secondary-nav -->
+  <main class="cd-main-content">
+    <section id="mission" class="cd-section cd-container">
+      <h2>Mission</h2>
+      <p>
+        MKeda is the regional distributor of global manufacturer Keda Company, serving customers in the U.S., Canada, Mexico, and South America. Keda Company produces various bearings for different gasoline and diesel engine models. Keda Company has state-of-art facilities in two locations in China (Wenzhou and Anhui) with a combined occupancy area of 25,000 square meters (or 269,000 square feet) and production capacity of 45 million pieces of engine bearings every year. Keda products have been sold to customers in Asia, Europe, Africa, North America, and South America. Together, we ensure that our products are manufactured with the highest quality and guarantee that customer satisfaction is our first priority.
+      </p>
+      <img src="img/bearing1.jpg"/>
+      <img src="img/bearing2.jpg"/>
+    </section> <!-- #mission -->
+
+    <section id="our-factories" style="width: 100%; max-width: none"  class="cd-section cd-container">
+      <div class="wrapper">
+        <h2>Our Factories</h2>
+        <p>
+          Our two main production facilities are located in Wenzhou and Anhui.
+        </p>
+      </div>
+      <div class="img-caption" style="float: left; margin-left: 70px">
+        <img src="img/anhui.JPG"/>
+        <br/>
+        <div class="submit caption"> VISIT OUR ANHUI DIVISION </div>
+      </div>
+      <div class="img-caption" style="float: right; margin-right: 70px">
+        <img src="img/wenzhou.jpg"/>
+        <br/>
+        <div class="submit caption"> VISIT OUR WENZHOU DIVISON </div>
+      </div>
+    </section> <!-- #our-factories -->
+
+    <section id="catalog" class="cd-section cd-container">
+      <h2>Catalog</h2>
+      <p>
+        We have passed the ISO/TS 16949 Quality Management System Certification and controlly quality very strictly based on this.
+      </p>
+      <div class="center-wrapper"><a href="cat.pdf"><div class="submit" id="cat"> VIEW OUR FULL CATALOG </div></a></div>
+    </section> <!-- #catalog -->
+
+    <section id="contact" class="cd-section cd-container">
+      <h2>Contact Us</h2>
+      <p>
+        Leave us a note. We'd love to hear from you.
+      </p>
+      <form id="contact-us" action="/" method="post" accept-charset="utf-8">
+        <input class="text-input" type="text" name="name" placeholder="Your name" autocomplete="off" required> <br/>
+        <input class="text-input" type="email" name="email" placeholder="Your email" autocomplete="off" required> <br/> 
+        <textarea name="message" placeholder="Enter your message here" required></textarea>
+        <input class="submit" type="submit" style="float: right" value="Send!">
+      </form>
+    </section> <!-- #contact -->
+
+  </main> <!-- .cd-main-content -->
+</body>
